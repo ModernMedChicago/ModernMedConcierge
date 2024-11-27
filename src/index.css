@@ -1,0 +1,33 @@
+/* src/index.css */
+@font-face {
+    font-family: 'Sentinel';
+    src: url('./fonts/Sentinel-Black.otf') format('opentype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sentinel';
+    src: url('./fonts/Sentinel-Bold.otf') format('opentype');
+    font-weight: bold; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sentinel';
+    src: url('./fonts/Sentinel-Medium.otf') format('opentype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sentinel';
+    src: url('./fonts/Sentinel-Light.otf') format('opentype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+/* Apply the font globally */
+body {
+    font-family: 'Sentinel', sans-serif;
+}
